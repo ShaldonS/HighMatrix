@@ -1,0 +1,19 @@
+﻿  Main.cpp
+C:\Users\eemee\source\repos\HighMatrix1\HighMatrix\TVector.h(90,24): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\eemee\source\repos\HighMatrix1\HighMatrix\TVector.h(84): message : во время компиляции функции-члена класс шаблон "TVector<T> &TVector<T>::operator =(const TVector<T> &)"
+          with
+          [
+              T=int
+          ]
+C:\Users\eemee\source\repos\HighMatrix1\HighMatrix\HighMatrix.h(13): message : выполняется компиляция ссылки на экземпляр шаблон функции "TVector<T> &TVector<T>::operator =(const TVector<T> &)"
+          with
+          [
+              T=int
+          ]
+C:\Users\eemee\source\repos\HighMatrix1\HighMatrix\Main.cpp(23): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "TVector<T>"
+          with
+          [
+              T=int
+          ]
+C:\Users\eemee\source\repos\HighMatrix1\HighMatrix\TVector.h(73): warning C4715: TVector<int>::operator[]: значение возвращается не при всех путях выполнения
+  HighMatrix.vcxproj -> C:\Users\eemee\source\repos\HighMatrix1\Debug\HighMatrix.exe
